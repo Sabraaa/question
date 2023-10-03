@@ -5,8 +5,8 @@ import LoginAxios from "./LoginAxios";
 function App() {
   return (
     <div className="App">
-      <Login/>
-      {/* <LoggedInPage /> */}
+      <Login />
+      <LoggedInPage />
     </div>
   );
 }
