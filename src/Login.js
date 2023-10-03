@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Login.css"
 
 const Login = () => {
   const [username, setUsername] = useState("");
@@ -34,11 +35,8 @@ const Login = () => {
       );
 
       if (response.status === 200) {
-        
         const data = await response.json();
-       
       } else {
-        
         const data = await response.json();
         setError(data.message);
       }

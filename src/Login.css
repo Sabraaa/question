@@ -1,0 +1,24 @@
+.login-page{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    width: 300px;
+}
+.form-group{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-group input{
+    width: 180px;   
+}
+.login-page button{
+   margin:10px;
+   width: 90px;
+   height: 30px;
+   cursor: pointer;
+   border: none;
+   background-color: rgba(142, 142, 207, 0.644);
+   border-radius: 5px;
+}
